@@ -21,9 +21,15 @@ A MATLAB-based pipeline for semi-automatic spike sorting and network burst analy
 
 ### Option 1: Standalone Application (Recommended for end users)
 
-1. Download the latest release from the `SemiAutomaticMEASpikeSorting/for_redistribution_files_only/` folder
+**Automatic Sorting:**
+1. Download from `SemiAutomaticMEASpikeSorting/for_redistribution_files_only/`
 2. Run `SemiAutomaticMEASpikeSorting.exe`
 3. If prompted, install the MATLAB Runtime (will be downloaded automatically)
+
+**Manual Curation (requires output from Automatic Sorting):**
+1. Download from `manualspikesorting/for_redistribution_files_only/`
+2. Run `manualspikesorting.exe`
+3. Load the output files from automatic sorting to review and curate results
 
 ### Option 2: Running from Source
 
@@ -66,15 +72,13 @@ SAMS/
 ├── README.md
 ├── LICENSE
 ├── THIRD_PARTY_NOTICES.md
-├── SemiAutomaticMEASpikeSorting/    # Compiled standalone application
-│   ├── for_redistribution/          # Web installer
-│   ├── for_redistribution_files_only/  # Standalone exe
-│   └── for_testing/                 # Development build
-├── src/                             # Source code
+├── SemiAutomaticMEASpikeSorting/    # Automatic sorting standalone app
+│   └── for_redistribution_files_only/
+├── manualspikesorting/              # Manual curation standalone app
+│   └── for_redistribution_files_only/
+├── src/                             # Shared source code
 │   ├── run_SAMS.m                   # Main entry point
-│   ├── process_file.m              # File processing
-│   ├── process_electrode.m         # Electrode processing
-│   ├── automatic_sorting.mlapp     # Main GUI
+│   ├── automatic_sorting.mlapp     # Automatic sorting GUI
 │   ├── manual_sorting_03252025.mlapp  # Manual sorting GUI
 │   ├── AxionFileLoader/            # Axion file reading library
 │   └── [additional source files]

@@ -18,6 +18,7 @@ sccprj/
 
 # Packaged app installers (keep the compiled exe, but not web installers)
 SemiAutomaticMEASpikeSorting/for_redistribution/
+manualspikesorting/for_redistribution/
 
 # OS files
 .DS_Store
