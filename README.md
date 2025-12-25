@@ -29,7 +29,7 @@ A MATLAB-based pipeline for semi-automatic spike sorting and network burst analy
 
 1. Clone this repository:
    ```
-   git clone https://github.com/YOUR_USERNAME/SAMS.git
+   git clone https://github.com/xiaoxuanren/SAMS.git
    ```
 2. Add the `src/` folder and subfolders to your MATLAB path:
    ```matlab
@@ -79,15 +79,13 @@ SAMS/
 │   ├── AxionFileLoader/            # Axion file reading library
 │   └── [additional source files]
 └── docs/                            # Documentation
-    ├── SAMS_User_Manual.docx
-    └── SAMS1.pptx
+    └── SAMS_User_Manual.docx
 ```
 
 ## Documentation
 
 See the `docs/` folder for:
 - `SAMS_User_Manual.docx` - Comprehensive user guide
-- `SAMS1.pptx` - Overview presentation
 
 ## Third-Party Components
 
@@ -98,9 +96,11 @@ This project uses the following third-party components:
 
 See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for full details.
 
-## Author
+## Authors
 
-Xiaoxuan Ren - Zhao Lab
+Xiaoxuan Ren, Carissa L. Sirois, Raymond Doudlah, Ethan Dayley, Natasha M. Mendez-Albelo, Aviad Hai, Ari Rosenberg, Xinyu Zhao
+
+Zhao Lab, University of Wisconsin-Madison
 
 ## License
 
@@ -110,9 +110,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you use this software in your research, please cite:
 
-```
-[Citation information to be added]
-```
+> Ren X, Sirois CL, Doudlah R, Mendez-Albelo NM, Hai A, Rosenberg A, Zhao X. (2025). A Semi-Automated MEA Spike sorting (SAMS) method for high throughput assessment of cultured neurons. *bioRxiv*. DOI: [10.1101/2025.02.08.637245](https://doi.org/10.1101/2025.02.08.637245)
 
 ## Contributing
 
