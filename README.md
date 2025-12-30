@@ -92,7 +92,7 @@ See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for full details.
 
 ## Authors
 
-Xiaoxuan Ren, Carissa L. Sirois, Raymond Doudlah, Ethan Dayley, Natasha M. Mendez-Albelo, Aviad Hai, Ari Rosenberg, Xinyu Zhao
+Xiaoxuan Ren, Carissa L. Sirois, Ethan Dayley, Raymond Doudlah, Natasha M. Mendez-Albelo, Aviad Hai, Ari Rosenberg, Xinyu Zhao
 
 ## License
 
