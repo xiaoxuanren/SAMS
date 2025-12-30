@@ -2,6 +2,8 @@
 
 A MATLAB-based pipeline for semi-automatic spike sorting and network burst analysis of multi-electrode array (MEA) recordings.
 
+> **Note:** SAMS is currently developed and tested for **Windows only**. macOS/Linux support may be added in future versions.
+
 ## Features
 
 - **Automated Spike Sorting**: Template matching and clustering algorithms for spike classification
@@ -13,9 +15,8 @@ A MATLAB-based pipeline for semi-automatic spike sorting and network burst analy
 
 ## Requirements
 
-- MATLAB R2023a or later
-- Statistics and Machine Learning Toolbox
-- Signal Processing Toolbox
+- **Windows OS** (tested on Windows 10/11)
+- MATLAB Runtime R2023a (automatically downloaded if not installed)
 
 ## Installation
 
@@ -58,9 +59,23 @@ SAMS/
 │   ├── manual_sorting_03252025.mlapp  # Manual sorting GUI
 │   ├── AxionFileLoader/            # Axion file reading library
 │   └── [additional source files]
+├── sample files/                    # Sample data for testing
+│   ├── Axion Spike File/           # Sample .spk file
+│   ├── SAMS Output Files/          # SAMS results for the sample
+│   ├── For OFS - Unsorted/         # Unsorted .nex/.plx files
+│   └── For OFS - Sorted/           # Sorted .nex/.plx files
 └── docs/                            # Documentation
     └── SAMS_User_Manual.docx
 ```
+
+## Sample Files
+
+The `sample files/` folder contains test data with 3 wells of FXS2 neurons (24 active electrodes) and 3 wells of CTRL2 neurons (16 active electrodes):
+
+- **Axion Spike File/** - Sample `.spk` file from Axion BioSystems
+- **SAMS Output Files/** - SAMS processing results for the sample
+- **For OFS - Unsorted/** - Unsorted `.nex` and `.plx` files (converted using Axion's Data Export Tool)
+- **For OFS - Sorted/** - Manually sorted files using Offline Sorter (OFS)
 
 ## Documentation
 

@@ -2,6 +2,9 @@
 *.spk
 spk/
 
+# But allow sample .spk files
+!sample files/**/*.spk
+
 # MATLAB temporary files
 *.asv
 *.m~

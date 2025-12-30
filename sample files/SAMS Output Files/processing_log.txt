@@ -1,0 +1,232 @@
+Processing file: 2-3-22_SampleElec_15min.spk
+Processing file 1/1: 2-3-22_SampleElec_15min.spk
+Sampling frequency: 12500 Hz
+Data dimensions: [8, 12, 3, 3]
+Recording duration: 899.70 seconds
+PowerPoint initialized successfully.
+Processing all wells.
+----------Processing electrode A6_11: 8676 spikes----------
+Electrode A6_11: 2 units detected
+----------Processing electrode A6_12: 4196 spikes----------
+Electrode A6_12: 2 units detected
+----------Processing electrode A6_13: 349 spikes----------
+Electrode A6_13: 1 units detected
+----------Processing electrode A6_21: 17367 spikes----------
+Aligning waveforms for second merge groups 
+
+Alignment started!
+Merge Group 1:
+  Cluster 1: lag = 0 samples
+  Cluster 3: lag = 0 samples
+Merge Group 2:
+  Cluster 2: lag = 0 samples
+  Cluster 4: lag = 19 samples - EXCLUDED (lag > 10)
+Emptying cluster 4 due to excessive lag
+Cluster 1: trim front = 0, trim end = 0 (total = 0)
+Cluster 2: trim front = 0, trim end = 0 (total = 0)
+Cluster 3: trim front = 0, trim end = 0 (total = 0)
+
+Alignment Summary:
+Original waveform length: 38 samples
+Maximum lag (peak span): 0 samples
+Total trim per cluster: 0 samples
+Final waveform length: 38 samples
+All clusters trim: 0 from end
+Excluded clusters (lag > 10): 1 clusters
+Processing 312 unclustered spikes (trim end only)...
+
+Alignment complete!
+Clusters merged: 4
+Clusters not merged: 0
+Electrode A6_21: 2 units detected
+----------Processing electrode A6_22: 16340 spikes----------
+Aligning waveforms for second merge groups 
+
+Alignment started!
+Merge Group 1:
+  Cluster 1: lag = 0 samples
+  Cluster 3: lag = 0 samples
+Merge Group 2:
+  Cluster 2: lag = 0 samples
+  Cluster 4: lag = 0 samples
+Cluster 1: trim front = 0, trim end = 0 (total = 0)
+Cluster 2: trim front = 0, trim end = 0 (total = 0)
+Cluster 3: trim front = 0, trim end = 0 (total = 0)
+Cluster 4: trim front = 0, trim end = 0 (total = 0)
+
+Alignment Summary:
+Original waveform length: 38 samples
+Maximum lag (peak span): 0 samples
+Total trim per cluster: 0 samples
+Final waveform length: 38 samples
+All clusters trim: 0 from end
+Processing 131 unclustered spikes (trim end only)...
+
+Alignment complete!
+Clusters merged: 4
+Clusters not merged: 0
+Electrode A6_22: 2 units detected
+----------Processing electrode A6_23: 4174 spikes----------
+Electrode A6_23: 2 units detected
+----------Processing electrode A6_31: 2507 spikes----------
+Electrode A6_31: 2 units detected
+----------Processing electrode A6_33: 15773 spikes----------
+Electrode A6_33: 5 units detected
+----------Processing electrode B4_11: 9122 spikes----------
+Electrode B4_11: 2 units detected
+----------Processing electrode B4_12: 6366 spikes----------
+Flag INconsistency in electrode B4_12: HDT=1, DTW=0
+Electrode B4_12: 4 units detected
+----------Processing electrode B4_13: 1697 spikes----------
+Electrode B4_13: 2 units detected
+----------Processing electrode B4_21: 3041 spikes----------
+Electrode B4_21: 2 units detected
+----------Processing electrode B4_22: 2152 spikes----------
+Electrode B4_22: 2 units detected
+----------Processing electrode B4_23: 905 spikes----------
+Electrode B4_23: 2 units detected
+----------Processing electrode B4_31: 4913 spikes----------
+Flag INconsistency in electrode B4_31: HDT=1, DTW=0
+Electrode B4_31: 3 units detected
+----------Processing electrode B4_33: 2868 spikes----------
+Electrode B4_33: 2 units detected
+----------Processing electrode C3_11: 1938 spikes----------
+Electrode C3_11: 2 units detected
+----------Processing electrode C3_12: 543 spikes----------
+Electrode C3_12: 2 units detected
+----------Processing electrode C3_13: 5720 spikes----------
+Electrode C3_13: 2 units detected
+----------Processing electrode C3_21: 1459 spikes----------
+Electrode C3_21: 2 units detected
+----------Processing electrode C3_22: 2791 spikes----------
+Electrode C3_22: 2 units detected
+----------Processing electrode C3_23: 4401 spikes----------
+Electrode C3_23: 2 units detected
+----------Processing electrode C3_31: 2222 spikes----------
+Electrode C3_31: 2 units detected
+----------Processing electrode C3_33: 19353 spikes----------
+Aligning waveforms for second merge groups 
+
+Alignment started!
+Merge Group 1:
+  Cluster 1: lag = 0 samples
+  Cluster 7: lag = 0 samples
+Merge Group 2:
+  Cluster 2: lag = 0 samples
+  Cluster 8: lag = 0 samples
+Merge Group 3:
+  Cluster 3: lag = 1 samples
+  Cluster 4: lag = 1 samples
+  Cluster 6: lag = 0 samples
+Cluster 1: trim front = 0, trim end = 1 (total = 1)
+Cluster 2: trim front = 0, trim end = 1 (total = 1)
+Cluster 3: trim front = 1, trim end = 0 (total = 1)
+Cluster 4: trim front = 1, trim end = 0 (total = 1)
+Cluster 5: trim front = 0, trim end = 1 (total = 1)
+Cluster 6: trim front = 0, trim end = 1 (total = 1)
+Cluster 7: trim front = 0, trim end = 1 (total = 1)
+Cluster 8: trim front = 0, trim end = 1 (total = 1)
+
+Alignment Summary:
+Original waveform length: 38 samples
+Maximum lag (peak span): 1 samples
+Total trim per cluster: 1 samples
+Final waveform length: 37 samples
+All clusters trim: 1 from end
+Processing 4686 unclustered spikes (trim end only)...
+
+Alignment complete!
+Clusters merged: 7
+Clusters not merged: 1
+Flag consistency in electrode C3_33: HDT=1, DTW=1
+Electrode C3_33: 4 units detected
+----------Processing electrode F5_12: 525 spikes----------
+Electrode F5_12: 2 units detected
+----------Processing electrode F5_22: 622 spikes----------
+Electrode F5_22: 3 units detected
+----------Processing electrode F5_23: 14976 spikes----------
+Aligning waveforms for first merge groups...
+
+Alignment started!
+Merge Group 1:
+  Cluster 1: lag = 0 samples
+  Cluster 2: lag = 0 samples
+  Cluster 3: lag = 1 samples
+  Cluster 4: lag = 1 samples
+  Cluster 5: lag = 1 samples
+  Cluster 6: lag = 5 samples
+Cluster 1: trim front = 0, trim end = 5 (total = 5)
+Cluster 2: trim front = 0, trim end = 5 (total = 5)
+Cluster 3: trim front = 1, trim end = 4 (total = 5)
+Cluster 4: trim front = 1, trim end = 4 (total = 5)
+Cluster 5: trim front = 1, trim end = 4 (total = 5)
+Cluster 6: trim front = 5, trim end = 0 (total = 5)
+Cluster 7: trim front = 0, trim end = 5 (total = 5)
+
+Alignment Summary:
+Original waveform length: 38 samples
+Maximum lag (peak span): 5 samples
+Total trim per cluster: 5 samples
+Final waveform length: 33 samples
+All clusters trim: 5 from end
+Processing 3025 unclustered spikes (trim end only)...
+
+Alignment complete!
+Clusters merged: 6
+Clusters not merged: 1
+Flag consistency in electrode F5_23: HDT=1, DTW=1
+Electrode F5_23: 5 units detected
+----------Processing electrode F5_31: 286 spikes----------
+Electrode F5_31: 2 units detected
+----------Processing electrode F5_33: 1425 spikes----------
+Electrode F5_33: 2 units detected
+----------Processing electrode G1_11: 1252 spikes----------
+Electrode G1_11: 3 units detected
+----------Processing electrode G1_12: 3082 spikes----------
+Electrode G1_12: 5 units detected
+----------Processing electrode G1_13: 128 spikes----------
+----------Processing electrode G1_21: 2009 spikes----------
+Electrode G1_21: 4 units detected
+----------Processing electrode G1_22: 1605 spikes----------
+Electrode G1_22: 3 units detected
+----------Processing electrode G1_31: 3313 spikes----------
+Electrode G1_31: 3 units detected
+----------Processing electrode G1_33: 96 spikes----------
+----------Processing electrode H6_12: 1376 spikes----------
+Electrode H6_12: 2 units detected
+----------Processing electrode H6_13: 1513 spikes----------
+Electrode H6_13: 3 units detected
+----------Processing electrode H6_22: 2493 spikes----------
+Electrode H6_22: 3 units detected
+----------Processing electrode H6_23: 225 spikes----------
+Electrode H6_23: 1 units detected
+----------Processing electrode H6_31: 5159 spikes----------
+Electrode H6_31: 3 units detected
+----------Processing electrode H6_33: 2423 spikes----------
+Electrode H6_33: 2 units detected
+PowerPoint presentation saved successfully.
+Saving burst analysis data...
+Performing network burst analysis...
+Network burst analysis completed successfully.
+Writing results to Excel...
+Main results written to Excel successfully.
+Check lists written to Excel successfully.
+
+=== PROCESSING SUMMARY ===
+File: 2-3-22_SampleElec_15min.spk
+Processing mode: All wells
+Total electrodes with spikes: 40
+Total units detected: 104
+Active units: 101
+Inactive units: 3
+Possible MUA electrodes: 2
+Over-excluded electrodes: 3
+Recording duration: 899.70 seconds
+Output folder: Results\2-3-22_SampleElec_15min
+Log file: Results\processing_log.txt
+=========================================================
+
+All outputs written successfully. Closing notification...
+File processing completed: 2-3-22_SampleElec_15min.spk
+========================================
+
